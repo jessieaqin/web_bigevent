@@ -20,7 +20,7 @@ $(function () {
 
     let layer = layui.layer
     $('#file').on('change', function (e) {
-        console.log(e.target.files);
+        // console.log(e.target.files);
         let filelist = e.target.files
         if (filelist.length === 0) {
             // console.log(OK);
